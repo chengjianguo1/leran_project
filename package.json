@@ -4,7 +4,8 @@
   "scripts": {
     "start:sanbox": "lerna exec yarn dev --scope=sanbox",
     "start:dumi-doc": "lerna exec yarn start --scope=dumi-doc",
-    "dumi-doc:deploy": "lerna exec yarn deploy --scope=dumi-doc"
+    "dumi-doc:deploy": "lerna exec yarn deploy --scope=dumi-doc",
+    "create-package": "node ./scripts/create.js"
   },
   "devDependencies": {
     "husky": "^7.0.2",
